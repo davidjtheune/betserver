@@ -1,12 +1,20 @@
 {
-  "name": "BetServer",
+  "name": "betserver",
   "version": "1.0.0",
-  "description": "",
+  "description": "bet bot that bots bets",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidjtheune/betserver.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.2.1"
+  }
 }
